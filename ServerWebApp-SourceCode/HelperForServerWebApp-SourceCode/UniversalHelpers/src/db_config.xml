@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+    <datasource>
+        <name>emaildb</name>
+        <driver>com.mysql.jdbc.Driver</driver>
+        <username>root</username>
+        <!--<username>openstone</username>-->
+        <password>ignitesql</password>
+        <uri><![CDATA[jdbc:mysql://127.0.0.1/email_logs?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true]]>
+        </uri>
+        <poolMinSize>10</poolMinSize>
+        <poolMaxSize>15</poolMaxSize>
+    </datasource>
+  <!--  <datasource>
+        <name>touchstone</name>
+        <driver>com.mysql.jdbc.Driver</driver>
+        <username>openseesame</username>
+        <password>openseesame</password>
+        <uri><![CDATA[jdbc:mysql://172.16.176.58/touchstone?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true]]>
+        <uri><![CDATA[jdbc:mysql://192.168.8.65/touchstone?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true]]>
+        </uri>
+        <poolMinSize>8</poolMinSize>
+        <poolMaxSize>8</poolMaxSize>
+    </datasource>
+    <datasource>
+        <name>sso</name>
+        <driver>com.mysql.jdbc.Driver</driver>
+        <username>openstone</username>
+        <username>root</username>
+        <password>openstone</password>
+        <password>ignitesql</password>
+        <uri><![CDATA[jdbc:mysql://172.16.79.40/sso?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true]]>
+        <uri><![CDATA[jdbc:mysql://172.20.32.127/sso?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true]]>
+        <uri><![CDATA[jdbc:mysql://127.0.0.1/sso?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true]]>
+        </uri>
+        <poolMinSize>10</poolMinSize>
+        <poolMaxSize>10</poolMaxSize>
+    </datasource>-->
+</datasources>
